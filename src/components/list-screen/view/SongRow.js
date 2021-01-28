@@ -5,7 +5,7 @@ import {StyleSheet, Text, TouchableHighlight} from "react-native";
 export default function SongRow(props){
     return (
         <TouchableHighlight
-            underlayColor="#C0C0C0"
+            underlayColor="#7499d4"
             onPress={() => props.navigation.navigate('Song', {song: props.song})}>
             <Text style={styles.songRow}>
                 {props.song.number} {props.song.title}
